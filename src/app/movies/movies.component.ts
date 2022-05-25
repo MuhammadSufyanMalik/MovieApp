@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Movie } from "../movie";
 
 @Component({
   selector: 'movies',
@@ -7,4 +8,9 @@ import { Component } from "@angular/core";
 })
 export class MoviesComponent{
 
+title = "Movies List";
+movie :Movie ={
+  id:1,
+  name:"Movie Name"
+}
 }
